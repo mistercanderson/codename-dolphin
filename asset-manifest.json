@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/codename-dolphin/static/css/main.bc3d03dc.chunk.css",
+    "main.js": "/codename-dolphin/static/js/main.300c452d.chunk.js",
+    "main.js.map": "/codename-dolphin/static/js/main.300c452d.chunk.js.map",
+    "runtime-main.js": "/codename-dolphin/static/js/runtime-main.d9b97171.js",
+    "runtime-main.js.map": "/codename-dolphin/static/js/runtime-main.d9b97171.js.map",
+    "static/js/2.273101b3.chunk.js": "/codename-dolphin/static/js/2.273101b3.chunk.js",
+    "static/js/2.273101b3.chunk.js.map": "/codename-dolphin/static/js/2.273101b3.chunk.js.map",
+    "index.html": "/codename-dolphin/index.html",
+    "static/css/main.bc3d03dc.chunk.css.map": "/codename-dolphin/static/css/main.bc3d03dc.chunk.css.map",
+    "static/js/2.273101b3.chunk.js.LICENSE.txt": "/codename-dolphin/static/js/2.273101b3.chunk.js.LICENSE.txt",
+    "static/media/dolphin.9e768334.svg": "/codename-dolphin/static/media/dolphin.9e768334.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9b97171.js",
+    "static/js/2.273101b3.chunk.js",
+    "static/css/main.bc3d03dc.chunk.css",
+    "static/js/main.300c452d.chunk.js"
+  ]
+}
