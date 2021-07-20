@@ -3,7 +3,7 @@
 
 
 #### Overview
-This interactive application is both and audio and visual experience that was created by utilizing the Web Audio API in tandem with various animation technologies. You can control your perspective within the 3D environment, and also manipulate audio by playing the in-app synthesizer with either clicks or the keyboard. Tweak the sounds to your liking by using the on-screen effects; these interactions have also been paired up with multiple visualizations for instant feedback. 
+Codename Dolphin is a full modular synthesizer that exists in an interactive 3D environment! This project was designed to allow users with no prior music experience the ability to explore sound design and music creation in a fun + accessible way.
 
 ![GIF showing the synth](src/assets/synth_main.gif)
 
