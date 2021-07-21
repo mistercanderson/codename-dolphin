@@ -29,7 +29,7 @@ Codename Dolphin is a fully modular synthesizer that exists in an interactive 3D
 - CI/CD with [CircleCI](circleci.com) + [Heroku](heroku.com)
 - [Workbox](https://developers.google.com/web/tools/workbox) + [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) Optimization
 
-  <img src='src/assets/pwa.png' alt='Codename Dolphin Lighthouse Audit' width='200'/>
+  <img src='src/assets/pwa.png' alt='Codename Dolphin Lighthouse Audit' width='600' style="border-radius: 5px;"/>
 
 ## Installation
 
