@@ -17,9 +17,13 @@ const LandingContainer = styled.div`
 const LandingTitle = styled.h1`
   font-size: 3em;
   font-family: 'Bungee', cursive;
-  cursor: crosshair;
+  cursor: pointer;
   width: 40%
-  text-align: center
+  text-align: center;
+  background: rgba(0, 0, 0, .5);
+  padding: 1em;
+  border-radius: 15px;
+  box-shadow: 0px 0px 7px 3px #00000061;
 `;
 const DolphinArm = styled.div`
   position: absolute;

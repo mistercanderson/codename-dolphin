@@ -23,11 +23,18 @@ const AboutContainer = styled.div`
     padding-bottom: 3em;
   }
 `;
-const Heading = styled.h1`
+const Heading1 = styled.h1`
   font-family: 'Bungee', cursive;
   margin-bottom: 1%;
   font-size: 2em;
 `;
+
+const Heading2 = styled.h2`
+  font-family: 'Bungee', cursive;
+  margin-bottom: 1%;
+  font-size: 1.5em;
+`;
+
 const HowTo = styled.div`
   width: 50%;
   align-self: center;
@@ -38,7 +45,7 @@ const HowTo = styled.div`
   font-size: 0.7em;
   box-sizing: border-box;
   @media only screen and (max-width: 1024px) {
-    width: 70%
+    width: 70%;
   }
 `;
 const ListItem = styled.p`
@@ -55,6 +62,8 @@ const ContributorWrap = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 80%;
+  align-self: center;
 `;
 const Contributor = styled.a`
   font-family: 'Bungee', cursive;
@@ -64,7 +73,7 @@ const Contributor = styled.a`
   font-weight: 300;
   margin: 1em 0;
   &:hover {
-    color: gold
+    color: gold;
   }
 `;
 
@@ -88,49 +97,56 @@ const About = () => {
 
   return (
     <AboutContainer>
-      <Heading> How To Play: </Heading>
-      <HowTo data-cy="how-to">
-        <ListItem data-cy="list-item">
+      <Heading1> How To Play: </Heading1>
+      <HowTo data-cy='how-to'>
+        <ListItem data-cy='list-item'>
           Make sure the sound is on! (also, rotate your phone horizontally if
           you're using one)
         </ListItem>
-        <ListItem data-cy="list-item">
+        <ListItem data-cy='list-item'>
           Play the synth by clicking/touching the keys, or try using your
           computer keyboard!
         </ListItem>
-        <ListItem data-cy="list-item">
+        <ListItem data-cy='list-item'>
           Morph the sound by playing with the effects sliders (if you have a
           scroll wheel, this can be used to change the sliders)
         </ListItem>
-        <ListItem data-cy="list-item">
+        <ListItem data-cy='list-item'>
           Look around by clicking & dragging the space behind the keyboard
           (holding shift will change your position)
         </ListItem>
-        <ListItem data-cy="list-item">
-          If the keys stay red when you're playing, slow down, hot shot!
-        </ListItem>
-      </HowTo>
-      <Link to='/synth' style={{ textDecoration: 'none', color: 'white' }}>
-        <h3
+        <Link
+          to='/synth'
           className='to-synth'
           style={{
             fontFamily: 'Bungee, cursive',
+            textDecoration: 'none',
             fontSize: '2em',
             margin: '1em 0',
+            background: 'rgba(0, 0, 0, .5)',
+            padding: '1em',
+            borderRadius: '15px',
+            boxShadow: '0px 0px 7px 3px #00000061',
+            maxWidth: '25em',
+            alignSelf: 'center',
           }}
         >
           Get Down With The Synthness
-        </h3>
-      </Link>
-      <Heading>Contributors:</Heading>
-      <ContributorWrap data-cy="contributors">
+        </Link>
+      </HowTo>
+      <Heading2>Contributors:</Heading2>
+      <ContributorWrap data-cy='contributors'>
         <Contributor href='https://github.com/mistercanderson' target='_blank'>
           Chris Anderson
         </Contributor>
         <Contributor href='https://github.com/tysnj' target='_blank'>
           Tyson McNutt
         </Contributor>
-        <Contributor data-cy="contributor" href='https://github.com/Patfindley' target='_blank'>
+        <Contributor
+          data-cy='contributor'
+          href='https://github.com/Patfindley'
+          target='_blank'
+        >
           Pat Findley
         </Contributor>
       </ContributorWrap>
