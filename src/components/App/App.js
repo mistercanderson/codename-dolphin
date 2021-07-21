@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Switch, Route, Redirect, Link } from 'react-router-dom';
+import { Switch, Route, Redirect, Link, BrowserRouter } from 'react-router-dom';
 import * as Tone from 'tone';
 import './App.css';
 import toggleActive from '../../util/activateKeyUtil';
@@ -125,6 +125,7 @@ export default function App() {
   const distRange = convertRangeScale([0, 1], [0, 100], distortionWet);
 
   return (
+    <BrowserRouter>
     <Switch>
       <Route
         exact
@@ -233,5 +234,6 @@ export default function App() {
       />
       <Redirect to='/' />
     </Switch>
+    </BrowserRouter>
   );
 }
