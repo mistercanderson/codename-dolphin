@@ -15,8 +15,7 @@ describe('Web Audio', () => {
 
     cy.on('window:alert', cy.stub().as('alerted'));
     cy.get('@alerted')
-      .should('have.been.calledOnce')
-      .and(
+      .should(
         'have.been.calledWith',
         "Sorry, this browser does not support Web Audio, which is required to use the instrument. You can still mess around but it probably won't be as fun. Anyways, have a great day! 🤠"
       );
